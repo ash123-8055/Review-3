@@ -4,7 +4,6 @@ def swap_pair(num_list):
     num_list[counter+1],num_list[counter+3]=num_list[counter+3],num_list[counter+1]
     return num_list
 
-
 list_len=int(input("Enter the number of elements in list: "))    
 num_list=[int(input("Enter the number: ")) for counter in range(list_len)]
 print(num_list)
