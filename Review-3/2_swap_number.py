@@ -1,4 +1,12 @@
 def swap_pair(num_list):
+    """
+    Description: This function swaps the alternate pairs in the list
+
+    Parameter: num_list: Array of integers
+
+    Return: Returns the swapped new list
+    """
+    
     for counter in range(0,len(num_list)-2,4):
     num_list[counter],num_list[counter+2]=num_list[counter+2],num_list[counter]
     num_list[counter+1],num_list[counter+3]=num_list[counter+3],num_list[counter+1]
